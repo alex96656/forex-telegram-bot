@@ -7,7 +7,7 @@ const app = express();
 const TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID = process.env.CHAT_ID;
 
-const bot = new TelegramBot(TOKEN);
+const bot = new TelegramBot(TOKEN, { polling: true });
 
 // ✅ START COMMAND (THIS IS WHAT YOU WERE MISSING)
 bot.onText(/\/start/, (msg) => {
