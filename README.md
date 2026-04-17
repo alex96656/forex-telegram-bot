@@ -8,6 +8,6 @@ Features
 - Auto analysis
 - 24/7 running
 
-Disclaimer
+Disclaimer⚠️
 
 This bot is not financial advice.
